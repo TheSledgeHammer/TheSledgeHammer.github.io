@@ -94,7 +94,7 @@
         </pluginManagement>
         <resources>
 			<resource>
-				<directory>${project.build.directory}/site/</directory>
+				<directory>${basedir}/src/site/</directory>
 				<targetPath>${basedir}/docs/</targetPath>
 			</resource>
 		</resources>
