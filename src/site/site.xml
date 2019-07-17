@@ -10,22 +10,12 @@
   	</bannerRight>
 
 	<body>
-		<links>
-		 <item name="The repository" href="https://github.com/thesledgehammer/thesledgehammer.github.io" />
-		</links>
-
-		<menu name="What you will find here">
-		 <item name="Main site" href="index.html" />
-		 <item name="Projects" href="projects.html" />
-		 <item name="site.xml" href="sitexml.html" />
-		 <item name="content creation" href="contentcreation.html" />
-		 <item name="build and deploy" href="builddeploy.html" />
+		<menu name="Overview">
+        	<item name="Introduction" href="index.html"/>
+            <item name="Goals" href="plugin-info.html"/>
+        	<item name="Usage" href="usage.html"/>
 		</menu>
-
 		<menu ref="reports"/>
-
-
-
 	</body>
 </project>
 
