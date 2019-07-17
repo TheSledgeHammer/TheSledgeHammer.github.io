@@ -41,12 +41,6 @@
 				 </plugin>
             </plugins>
         </pluginManagement>
-        <resources>
-			<resource>
-				<directory>${project.build.directory}/site/</directory>
-				<targetPath>${basedir}/docs/</targetPath>
-			</resource>
-		</resources>
     </build>
 	<scm>
         <url>https://github.com/TheSledgeHammer/TheSledgeHammer.github.io</url>
