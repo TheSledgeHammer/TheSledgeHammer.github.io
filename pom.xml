@@ -3,26 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.thesledgehammer</groupId>
     <artifactId>mavensite</artifactId>
-    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>TheSledgeHammer.github.io</name>
+    <name>thesledgehammer.github.io</name>
 
-    <url>https://TheSledgeHammer.github.io/maven</url>
-
-    <developers>
-		<developer>
-			<name>TheSledgeHammer</name>
-			<id>thesledgehammer</id>
-			<url>https://github.com/TheSledgeHammer</url>
-		</developer>
-	</developers>
-
-	<distributionManagement>
-    	<site>
-      		<id>thesledgehammer</id>
-      		<url>scp://www.mycompany.com/www/docs/project/</url>
-    	</site>
-  	</distributionManagement>
+    <url>https://github.com//thesledgehammer/thesledgehammer.github.io</url>
     
     <build>
         <pluginManagement>
@@ -64,9 +48,4 @@
 			</resource>
 		</resources>
     </build>
-	<scm>
-        <url>https://github.com/TheSledgeHammer/TheSledgeHammer.github.io</url>
-        <connection>scm:git:git@github.com:TheSledgeHammer/TheSledgeHammer.github.io.git</connection>
-        <developerConnection>scm:git:git@github.com:TheSledgeHammer/TheSledgeHammer.github.io.git</developerConnection>
-    </scm>
 </project>
