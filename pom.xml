@@ -7,7 +7,6 @@
     <version>1.0-SNAPSHOT</version>
     <name>TheSledgeHammer.github.io</name>
 
-    <!-- Change this to point to your repository -->
     <url>https://github.com/TheSledgeHammer/TheSledgeHammer.github.io/maven</url>
 
     <developers>
@@ -17,6 +16,13 @@
 			<url>https://github.com/TheSledgeHammer</url>
 		</developer>
 	</developers>
+
+	<distributionManagement>
+    	<site>
+      		<id>thesledgehammer</id>
+      		<url>scp://www.mycompany.com/www/docs/project/</url>
+    	</site>
+  	</distributionManagement>
     
     <build>
         <pluginManagement>
@@ -58,9 +64,7 @@
 			</resource>
 		</resources>
     </build>
-
-    <!-- Change this to point to your repository -->
-    <scm>
+	<scm>
         <url>https://github.com/TheSledgeHammer/TheSledgeHammer.github.io</url>
         <connection>scm:git:git@github.com:TheSledgeHammer/TheSledgeHammer.github.io.git</connection>
         <developerConnection>scm:git:git@github.com:TheSledgeHammer/TheSledgeHammer.github.io.git</developerConnection>
